@@ -1,0 +1,149 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /Name /F1 /BaseFont /Helvetica >>
+endobj
+
+2 0 obj
+<< /Type /Font /Subtype /Type1 /Name /F2 /BaseFont /Helvetica-Bold >>
+endobj
+
+3 0 obj
+<< /ProcSet [/PDF /Text] /Font << /F1 1 0 R /F2 2 0 R >> >>
+endobj
+
+4 0 obj
+<< /Length 2085 >>
+stream
+BT
+/F2 12 Tf
+50 800 Td
+(Perguntas e Respostas - Atividade Pratica) Tj
+-50 -800 Td
+/F1 12 Tf
+50 780 Td
+() Tj
+-50 -780 Td
+/F2 12 Tf
+50 760 Td
+(1. Qual e a funcao do PreparedStatement na operacao JDBC?) Tj
+-50 -760 Td
+/F1 12 Tf
+50 740 Td
+(R: Pre-compila a instrucao SQL e substitui parametros \(?\) com seguranca,) Tj
+-50 -740 Td
+/F1 12 Tf
+50 720 Td
+(   prevenindo SQL Injection e melhorando performance.) Tj
+-50 -720 Td
+/F1 12 Tf
+50 700 Td
+() Tj
+-50 -700 Td
+/F2 12 Tf
+50 680 Td
+(2. Qual e a diferenca entre o uso de JDBC e JPA nessa aplicacao?) Tj
+-50 -680 Td
+/F1 12 Tf
+50 660 Td
+(R: JDBC e de baixo nivel, usando SQL direto \(Strings\) e ResultSet.) Tj
+-50 -660 Td
+/F1 12 Tf
+50 640 Td
+(   JPA e um ORM que mapeia tabelas para objetos Java \(Entidades\).) Tj
+-50 -640 Td
+/F1 12 Tf
+50 620 Td
+() Tj
+-50 -620 Td
+/F2 12 Tf
+50 600 Td
+(3. Qual e a funcao do EntityManager?) Tj
+-50 -600 Td
+/F1 12 Tf
+50 580 Td
+(R: Gerenciar o contexto de persistencia, sincronizando objetos) Tj
+-50 -580 Td
+/F1 12 Tf
+50 560 Td
+(   Java \(Entidades\) com o banco de dados via JPA.) Tj
+-50 -560 Td
+/F1 12 Tf
+50 540 Td
+() Tj
+-50 -540 Td
+/F2 12 Tf
+50 520 Td
+(4. Por que o SQL nao deveria estar diretamente dentro do Servlet?) Tj
+-50 -520 Td
+/F1 12 Tf
+50 500 Td
+(R: Para separar responsabilidades \(MVC\). O Servlet orquestra as) Tj
+-50 -500 Td
+/F1 12 Tf
+50 480 Td
+(   requisicoes, as operacoes de banco devem ficar na camada DAO.) Tj
+-50 -480 Td
+/F1 12 Tf
+50 460 Td
+() Tj
+-50 -460 Td
+/F2 12 Tf
+50 440 Td
+(5. O que aconteceria se o banco estivesse indisponivel no cadastro?) Tj
+-50 -440 Td
+/F1 12 Tf
+50 420 Td
+(R: A conexao falharia lancando SQLException. A aplicacao deveria) Tj
+-50 -420 Td
+/F1 12 Tf
+50 400 Td
+(   tratar a excecao e avisar o usuario \(ex: HTTP 500\).) Tj
+-50 -400 Td
+/F1 12 Tf
+50 380 Td
+() Tj
+-50 -380 Td
+/F2 12 Tf
+50 360 Td
+(6. Por que o id nao e recebido no JSON \(ou form\) de cadastro?) Tj
+-50 -360 Td
+/F1 12 Tf
+50 340 Td
+(R: Porque o id e auto-incrementado \(SERIAL\) no SGBD. Ele gera) Tj
+-50 -340 Td
+/F1 12 Tf
+50 320 Td
+(   sozinho a chave primaria para evitar conflitos.) Tj
+-50 -320 Td
+ET
+endstream
+endobj
+
+5 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources 3 0 R >>
+endobj
+
+6 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+
+7 0 obj
+<< /Type /Catalog /Pages 6 0 R >>
+endobj
+
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000095 00000 n 
+0000000180 00000 n 
+0000000255 00000 n 
+0000002392 00000 n 
+0000002496 00000 n 
+0000002553 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+2602
+%%EOF

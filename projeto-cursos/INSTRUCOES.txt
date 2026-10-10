@@ -1,0 +1,21 @@
+INSTRUÇÕES DE EXECUÇÃO:
+
+1. Banco de Dados:
+   - Certifique-se de que o PostgreSQL está rodando.
+   - Crie um banco de dados chamado 'avaliacao_persistencia'
+   - Execute o script localizado em: src/main/resources/script.sql
+   - Se necessário, altere a senha do banco no arquivo:
+     src/main/java/br/com/ensino/util/DatabaseConnection.java
+
+2. Execução:
+   - Esta é uma aplicação Maven.
+   - Utilize o comando:
+     mvn clean package
+   - Realize o deploy do arquivo .war gerado na pasta 'target' no seu servidor de aplicação (ex: Tomcat).
+   - Opcionalmente, pode rodar direto por alguma IDE (Eclipse/IntelliJ) configurada com Tomcat.
+
+3. Testando:
+   - Acesse o endereço correspondente ao deploy no navegador, geralmente:
+     http://localhost:8080/projeto-cursos/
+   - A página inicial o redirecionará para a lista de cursos ou exibirá a opção de acesso.
+
